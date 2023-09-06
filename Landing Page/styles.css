@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400&family=Tenor+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #FAF9F7;
+}
+#header{
+    width: 100%;
+    background-color: #FAF9F7;
+    margin-bottom: 20px;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+nav h3{
+    color: #1e3706;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+nav ul{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav ul li{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color:#1e3706;
+    transition: transform 0.5s ease;
+    transition: letter-spacing 0.5s ease;
+}
+nav a:hover{
+    letter-spacing: 1px;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    width: 75%;
+    height: 90%;
+    object-fit: cover;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-top: 100px;
+
+}
+.product{
+    width: 100%;
+    padding: auto 30%;
+}
+.product h1{
+    color: #1e3706;
+    margin-bottom: 50px;
+    width: 100%;
+    letter-spacing: 12px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: lighter;
+   
+}
+
+.product p{
+    color: #1e3706;
+    margin-bottom: 50px;
+    width: 85%;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 1.2px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1e3706;
+    color: #FAF9F7;
+    cursor: pointer;
+    transition: letter-spacing 0.5s ease;
+}
+.main button:hover{
+    letter-spacing: 2px;
+
+}
+
+/* contact section */
+#contact{
+    width: 90%;
+    background-image: url(https://img.freepik.com/free-photo/leaf-with-white-background_1339-6718.jpg?w=826&t=st=1694016866~exp=1694017466~hmac=32ccebb4a4f92f0bb4b3be73478ebab0da0d9c2cabad5303a0c7163350fa3387);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 5%;
+    min-width: 500px;
+    border-radius: 25px;
+}
+.contact{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    filter: saturate(0.7);
+    filter: contrast(0.8);
+    border-radius: 25px;
+}
+.contact h1{
+    font-size: 45px;
+    font-weight: 100;
+    padding: 40px 0 20px 40px;
+}
+.contact p{
+    font-size: 18px;
+    padding: 10px 40px 0 40px;
+    line-height: 0.8;
+}
+.contact .email{
+    text-decoration: none;
+    color: #1d1d1d
+}
+i{
+    color: #1d1d1d;
+    font-size: 25px;
+}
+.contact-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 0 40px 40px ;
+}
+.contact-box button{
+    width: 120px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #1d1d1d;
+    color: #fff;
+    transition: letter-spacing 0.5s ease;
+
+}
+.contact-box button:hover{
+    letter-spacing: 2px;
+    background-color: #333;
+}
+.contact-box a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EEF4F2;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.contact-box a:hover{
+    background-color: #333;
+    color: #fff;
+}
+.contact-box a:hover i{
+    color: #fff;
+}
